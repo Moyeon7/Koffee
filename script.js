@@ -1,4 +1,3 @@
-//Front page
 let navbar = document.querySelector('.Navbar');
 document.querySelector('#menu-btn').onclick = () =>{
     navbar.classList.toggle('active');
