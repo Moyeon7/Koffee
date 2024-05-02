@@ -265,6 +265,49 @@ header .logo img{
     line-height: 1.8;
 }
 
+.menu .box-container img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.menu .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.menu .box-container .box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.menu .box-container .box .price{
+    padding: .5rem 0;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.menu .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+.menu .box-container .box:hover{
+    background: #fff;
+}
+
+.menu .box-container .box:hover > *{
+    color: var(--black);
+}
+
 /*media queries*/
 @media (max-width: 991px){
     html{
