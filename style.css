@@ -241,7 +241,7 @@ header .logo img{
 }
 
 .about .row .image{
-    flex: 1 1 45rem;
+    flex: 1 2 80rem;
 }
 
 .about .row .image img{
@@ -253,7 +253,7 @@ header .logo img{
     padding: 2rem;
 }
 
-.about .row .content .h3{
+.about .row .content h3{
     font-size: 3rem;
     color: #fff;
 }
@@ -366,6 +366,53 @@ header .logo img{
     text-decoration: line-through;
     font-weight: lighter;
     font-size: 1.5rem;
+}
+
+.review .box-container{
+    padding: 2rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.review .box-container .box .quote{
+    height: 150px;
+}
+
+.review .box-container .box .user{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review .box-container .box{
+    padding:3rem 2rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.review .box-container .box p{
+    font-size: 1.5rem;
+    color: #ccc;
+    padding: 2rem 0;
+    line-height: 1.8;
+}
+
+.review .box-container .box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff
+}
+
+.review .box-container .box .stars i{
+    font-size: 1.5rem;
+    color: var(--main-color)
 }
 
 /*media queries*/
