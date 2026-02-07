@@ -1,6 +1,6 @@
-# Koffee
-my first website using HTML, CSS & JS
-->It is a simple website that I made with the help of yt. 
-->Got to learn more about HTML and CSS while making this.
-->Would recommend making this if u wanna learn HTML & CSS in less time.
-->Very less JS is used. 
+Koffee
+A simple static website built using HTML, CSS, and minimal JavaScript.
+This project helped me strengthen my fundamentals in HTML structure, CSS styling, and basic DOM interactions.
+
+Tech Stack: HTML, CSS, JavaScript
+Deployment: GitHub Pages
